@@ -4,6 +4,10 @@
  */
 class NewtonWidget extends WP_Widget {
     /** constructor */
+    function __construct() {
+        // Instantiate the parent object.
+        parent::__construct( false, __( 'Newton Job Board', 'msdlab' ) );
+    }
     function NewtonWidget() {
 		$widget_ops = array('classname' => 'msd-connected', 'description' => __('Show social icons'));
 		$control_ops = array('width' => 400, 'height' => 350);
@@ -47,5 +51,7 @@ class NewtonWidget extends WP_Widget {
 <?php
 	}
 }
-
-add_action('widgets_init', create_function('', 'return register_widget("NewtonWidget");'));/**
+$widgetName = 'NewtonWidget';
+add_action('widgets_init', function () use ($widgetName) {
+    return register_widget($widgetName);
+});

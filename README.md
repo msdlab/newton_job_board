@@ -8,3 +8,5 @@ It’s pretty self explanatory, and really only does one thing: adds a shortcode
 
 I hope someone finds this useful.
 - See more at: http://msdlab.com/blog/newton-software-job-board/#sthash.bWZyatcn.dpuf
+
+0.1.2: Updated for PHP 8^ support.

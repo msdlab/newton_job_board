@@ -2,7 +2,11 @@
 /*
 Plugin Name: Newton Job Board
 Description: Quick integration of Newton Job Board.
+<<<<<<< HEAD
 Version: 0.1.0
+=======
+Version: 0.1.2
+>>>>>>> b3400ab (prep for merge)
 Author: Mad Science Dept. MSDLab.com
 Author URI: http://msdlab.com
 GitHub Plugin URI: https://github.com/msdlab/newton-job-board
